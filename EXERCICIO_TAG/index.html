@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAGS</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
 </head>
 <body>
     <header>
@@ -13,42 +14,52 @@
     
     
 
-    <anside> <!--Usando anside com a coleção de páginas de exercicio-->
-        <nav> <!--Defininado uma nav e fazendo navegação entre elas-->
-            <a href="../EXERCICIO/index.html" alt="link da primeira atividade de HTML">Primeira Página feita</a>
-            <a href="./index.html" alt="link da segunda atividade de HTML">Segunda página feita</a>
-        </nav>
-    </anside>
-    <hr/>
-
-    <main><!--A tag main está englobando o conteúdo principal do site-->
-        <p>Está página foi criada no intuito de estudar a TAGS semânticas do html. Antes de criarmos ela fizemos uma pesquisa sobre <cite>Quais são e como são usadas as TAGS semânticas do HTML.
-        <p>Por causa desta pesquisa pudemos compreender o motivo de usar a TAGS semâticas, e perceber que um site não precisa ter muita div por exemplo.</p>
+    
+    <nav> <!--Defininado uma nav e fazendo navegação entre elas-->
+        <a href="../EXERCICIO/index.html" alt="link da primeira atividade de HTML" title="Clique para ir para primeira página">Primeira página feita</a>
+        <a href="./index.html" alt="link da segunda atividade de HTML" title="Clique para ir para segunda página">Segunda página feita</a>
         
-        <br/>
+    </nav>
+    
+
+    <main class="conteudo"><!--A tag main está englobando o conteúdo principal do site-->
+        <p >Está página foi criada no intuito de estudar a TAGS semânticas do html. Antes de criarmos ela fizemos uma pesquisa sobre <cite>Quais são e como são usadas as TAGS semânticas do HTML.
+        <p >Por causa desta pesquisa pudemos compreender o motivo de usar a TAGS semâticas, e perceber que um site não precisa ter muita div por exemplo.</p>
+        
 
         <h3>Exemplos de TAGS estudadas: </h3>
         <p>1. Figure</p>
-        <figure> 
+        <figure class = "imagens"> 
             <img src="./img/figure.png" alt="Imagem de exemplo da tag figure "/>
             <p>Figure é usada para engloba a TAG img.</p>
         </figure>
 
-        <br/>
 
         <p>2. Main</p>
-        <figure> 
+        <figure class = "imagens"> 
             <img src="./img/main.png" alt="Imagem de exemplo da tag main "/>
             <p>Main é usado para guardar o conteúdo principal do site.</p>
         </figure>
 
         <p>3. Header</p>
-        <figure> 
+        <figure class = "imagens"> 
             <img src="./img/heade.png" alt="Imagem de exemplo da tag header "/>
             <p>Header faz parte do cabeçalho do site.</p>
         </figure>
+
+        <span class="textoSobre">
+            <p>Todo o conteúdo deste site é somente para tentar compreender a estrutura de uma página HTML!!</p>
+        </span>
+
+        <section class="seletoresCombinadores">
+            <p>Primeiro Pokemon</p>
+            <figure class="imagens">
+                <img src="./img/bulbasaur.png" alt="Imagem do pokemon Bulbasaur"  width="180px" height="140px"/>
+            </figure>
+        </section>
     </main>
 
+    
     <hr/>
     <footer><!--TAG para definir o rodapé da página-->
         <img src="./img/squirtle.jpg" alt="Imagem do pokemon Squirtle" width="180px" height="100px"/>
